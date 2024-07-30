@@ -32,4 +32,4 @@ jobs:
         run: ls
 
       - name: Display file
-        run: cat ./artifacts/hello.txt
+        run: cat hello.txt
