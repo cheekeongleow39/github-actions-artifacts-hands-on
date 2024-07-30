@@ -28,5 +28,8 @@ jobs:
         with:
           name: hello-artifact
 
+      - name: List files
+        run: ls
+
       - name: Display file
         run: cat ./artifacts/hello.txt
